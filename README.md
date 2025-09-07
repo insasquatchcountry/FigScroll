@@ -84,7 +84,7 @@ man fs  # View man page after installation
 ```
 
 ## Credits
-- **Author**: [Your Name/Handle]
+- **Author**: InSasquatchCountry
 - **Inspired by**: `sl` by Toyoda Masashi (https://github.com/mtoyoda/sl)
 - Built with `figlet` and `ncurses`.
 
@@ -93,26 +93,3 @@ MIT License for original contributions, with portions derived from `sl` under it
 
 ## Acknowledgments
 Thanks to Toyoda Masashi for the original `sl` program, which provided the core animation logic and inspiration for `fs`.
-```
-
-### What to Do Next
-1. Save it to your project:
-   ```bash
-   cd ~/Downloads/figscroll
-   nano README.md
-   ```
-   Paste the content inside the ```markdown
-
-2. Build and test:
-   ```bash
-   make clean
-   gcc -o fs fs.c -lncurses
-   ./fs -t "Hello World" -f slant -i > test_new.txt
-   ```
-   Check `test_new.txt` with `less -R test_new.txt` to verify.
-
-3. Install (optional):
-   ```bash
-   make
-   sudo make install
-   fs -t "Hello World" -f slant -i
