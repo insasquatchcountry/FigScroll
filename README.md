@@ -44,7 +44,7 @@ Run it directly:
 ### Option 2: Install System-Wide
 Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/figscroll.git
+git clone https://github.com/insasquatchcountry/figscroll.git
 cd figscroll
 ```
 Build and install to `/usr/local/bin` and `/usr/local/share/man/man1`:
@@ -64,17 +64,17 @@ Uninstall:
 ```bash
 sudo make uninstall
 ```
-
-### Option 3: Install via Homebrew
-Add the custom tap:
-```bash
-brew tap [your-username]/figscroll
-```
-Install `fs`:
-```bash
-brew install fs
-```
-Run and view the man page as above.
+⚠️ UNDER CONSTRUCTION ⚠️
+> ### Option 3: Install via Homebrew
+> Add the custom tap:
+> ```bash
+> brew tap insasquatchcountry/tap
+> ```
+> Install `fs`:
+> ```bash
+> brew install fs
+> ```
+> Run and view the man page as above.
 
 ## Usage
 ```bash
@@ -87,6 +87,8 @@ man fs  # View man page after installation
 - **Author**: InSasquatchCountry
 - **Inspired by**: `sl` by Toyoda Masashi (https://github.com/mtoyoda/sl)
 - Built with `figlet` and `ncurses`.
+- **Guidance and Support**: Grok, created by xAI
+
 
 ## License
 MIT License for original contributions, with portions derived from `sl` under its original terms (see LICENSE file).
