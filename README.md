@@ -4,6 +4,13 @@
 
 ![figscroll_example](https://github.com/user-attachments/assets/2e236782-913e-4a2f-9228-27bd1904f7b7)
 
+## Usage
+```bash
+fs -t "Hello World" -f slant -i
+fs -t "be right back...    " -f roman -w 200 -s 20000
+man fs  # View man page after installation
+```
+
 ## Features
 - Generate ASCII art using `figlet` with custom text, font, and width.
 - Scroll art across the terminal, even in narrow windows (like `sl`).
@@ -76,12 +83,7 @@ sudo make uninstall
 > ```
 > Run and view the man page as above.
 
-## Usage
-```bash
-fs -t "Hello World" -f slant -i
-fs -t "be right back...    " -f roman -w 200 -s 20000
-man fs  # View man page after installation
-```
+___
 
 ## Credits
 - **Author**: InSasquatchCountry
