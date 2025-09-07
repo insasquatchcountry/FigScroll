@@ -83,6 +83,10 @@ sudo make uninstall
 > ```
 > Run and view the man page as above.
 
+
+https://github.com/user-attachments/assets/60276472-ef0b-4f6a-9929-f22bf21d889f
+
+
 ___
 
 ## Credits
