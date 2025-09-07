@@ -2,6 +2,8 @@
 
 `fs` (FigScroll) is a terminal animation program that scrolls Figlet-generated ASCII art from right to left, inspired by the classic `sl` (steam locomotive) program by Toyoda Masashi. It dynamically generates ASCII art from user-specified text, font, and width, and supports infinite scrolling and adjustable speed.
 
+![figscroll_example](https://github.com/user-attachments/assets/2e236782-913e-4a2f-9228-27bd1904f7b7)
+
 ## Features
 - Generate ASCII art using `figlet` with custom text, font, and width.
 - Scroll art across the terminal, even in narrow windows (like `sl`).
